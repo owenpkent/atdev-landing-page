@@ -1,11 +1,25 @@
-# Image Credits
 
-All images courtesy of Unsplash (https://unsplash.com).
+CREDITS
 
-- NASA (https://unsplash.com/?photo=rTZW4f02zY8)
-- Cristian Newman (https://unsplash.com/photos/G-eETuefh8Y)
-- Lesly B. Juarez (https://unsplash.com/photos/oFrKQPh3qQk)
-- Brooke Cagle (https://unsplash.com/photos/HRZUzoX1e6w)
-- Ayo Ogunseinde (https://unsplash.com/photos/sibVwORYqs0)
-- Jeremy Gallman (https://unsplash.com/photos/Id2f5Y9dq1g)
-- Imani Clovis (https://unsplash.com/photos/HiO3MRgXJt4)
+Snapshot Template
+http://www.templatemo.com/tm-493-snapshot
+
+Bootstrap
+http://getbootstrap.com/
+
+Images
+http://unsplash.com/
+
+Zoom Slider
+https://vegas.jaysalvat.com/
+
+Caption Hover Effects
+http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
+
+
+Animate CSS
+https://daneden.github.io/animate.css/
+
+OwlCarousel
+
+http://www.owlcarousel.owlgraphic.com/

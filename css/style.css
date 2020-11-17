@@ -406,6 +406,7 @@ a:hover, a:active, a:focus {
   padding: 10px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  max-width: 220px;
 }
 
 #about .team-thumb .heading {

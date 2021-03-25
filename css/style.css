@@ -6,10 +6,10 @@ http://www.templatemo.com/tm-493-snapshot
 */
 
 
-/* Body 
+/* Body
 ------------------------------------- */
 body {
-    background: #ffffff;   
+    background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -27,7 +27,7 @@ html {
 
 
 /*---------------------------------------
-    Typorgraphy              
+    Typography
 -----------------------------------------*/
 
 h1,h2,h3,h4 {
@@ -119,7 +119,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    All Section style              
+    All Section style
 -----------------------------------------*/
 
 .section-title {
@@ -149,11 +149,11 @@ a:hover, a:active, a:focus {
 }
 
 .overlay {
-  background: #304352;
+  background: rgba(0, 0, 0, .5);;
   opacity: 0.9;
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   top: 0;
   left: 0;
   right: 0;
@@ -162,7 +162,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Pre Loader Style              
+    Pre Loader Style
 -----------------------------------------*/
 
 .preloader {
@@ -209,7 +209,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Main Navigation             
+    Main Navigation
 -----------------------------------------*/
 
 .navbar-default {
@@ -309,12 +309,12 @@ a:hover, a:active, a:focus {
   }
 
 .navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus { 
+.navbar-default .navbar-toggle:focus {
   background-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
-  
+
   .navbar-default .navbar-nav li a span:before {
     background: transparent !important;
   }
@@ -333,7 +333,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Home Section              
+    Home Section
 -----------------------------------------*/
 
 #home {
@@ -345,7 +345,7 @@ a:hover, a:active, a:focus {
   -webkit-align-items: center;
       -ms-flex-align: center;
         align-items: center;
-  height: 100vh;
+  height: 70vh;
   text-align: center;
 }
 
@@ -360,7 +360,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    About Section              
+    About Section
 -----------------------------------------*/
 
 #about {
@@ -375,7 +375,7 @@ a:hover, a:active, a:focus {
 #about .about-thumb {
   background: #ffffff;
   border-radius: 4px;
-  padding: 100px;
+  padding: 2rem;
   position: relative;
 }
 
@@ -456,7 +456,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Galllery section              
+    Galllery section
 -----------------------------------------*/
 
 #gallery {
@@ -488,7 +488,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Contact section              
+    Contact section
 -----------------------------------------*/
 
 #contact, footer {
@@ -532,7 +532,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Footer section             
+    Footer section
 -----------------------------------------*/
 
 footer {
@@ -542,8 +542,12 @@ footer {
 
 
 /*---------------------------------------
-    Social icons style              
+    Social icons style
 -----------------------------------------*/
+
+.company-logo {
+	padding: 0 2rem 2rem 2rem;
+}
 
 .social-icon {
   padding: 0;
@@ -576,7 +580,7 @@ footer {
 
 
 /*---------------------------------------
-   Back top         
+   Back top
 -----------------------------------------*/
 
 .go-top {
@@ -605,11 +609,11 @@ footer {
 
 
 /*---------------------------------------
-   Responsive Mobile         
+   Responsive Mobile
 -----------------------------------------*/
 
 @media (max-width: 980px) {
-/* 
+/*
   #home, .overlay {
     height: 50vh;
   }
@@ -653,10 +657,6 @@ footer {
     font-size: 18px;
   }
 
-  img {
-    width: 100%;
-  }
-
   #about,
   #gallery,
   #contact {
@@ -665,7 +665,3 @@ footer {
   }
 
 }
-
-
-
-

@@ -35,9 +35,7 @@ $(document).ready(function() {
         slides: [
             { src: 'images/header1.jpg' },
             { src: 'images/header2.jpg' },
-            { src: 'images/header3.jpg' },
 						{ src: 'images/header4.jpg' },
-						{ src: 'images/header5.jpg' }
         ],
         timer: false,
         transition: [ 'zoomIn', ],

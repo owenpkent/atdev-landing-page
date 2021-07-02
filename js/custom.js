@@ -33,13 +33,14 @@ $(document).ready(function() {
   $(function() {
     $('body').vegas({
         slides: [
-            { src: 'images/header1.jpg' },
-            { src: 'images/header2.jpg' },
-						{ src: 'images/header4.jpg' },
+            { src: 'images/bg.jpg' },
         ],
         timer: false,
-        transition: [ 'zoomIn', ],
-        animation: ['kenburns']
+				valign: 'top',
+        transition: [ 'fade', ],
+				transitionDuration: 0,
+        animation: ['kenburns'],
+				animationDuration: 0,
     });
   });
 
